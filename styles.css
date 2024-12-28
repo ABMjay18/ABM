@@ -1,0 +1,442 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #0073e6, #00c4ff);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #00c4ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background: #0073e6;
+}
+
+/* Features Section */
+.features {
+    padding: 40px 0;
+    text-align: center;
+    background: #ffffff;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+    color: #0073e6;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* Social Media Icon Styling */
+.social-icon {
+    width: 30px; /* Set a uniform size for all icons */
+    height: 30px;
+    vertical-align: middle; /* Align icons with text */
+    margin-right: 10px; /* Add space between icons and text */
+    transition: transform 0.3s ease; /* Hover effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
+
+/* List Styling in Contact Section */
+.contact-section ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.contact-section ul li {
+    margin: 15px 0; /* Space between items */
+    font-size: 1.1em; /* Slightly larger text */
+}
+/* Body Styling */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #444;
+}
+
+/* Header Styling */
+header {
+    background: #0073e6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+header nav a.active {
+    text-decoration: underline;
+}
+
+/* Main Section */
+.about-me {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    line-height: 1.8;
+}
+
+.about-me h2 {
+    color: #0073e6;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-me .highlight {
+    color: #ff6f61;
+    font-weight: bold;
+}
+
+.about-me p {
+    font-size: 1.1em;
+    margin: 15px 0;
+    color: #333;
+}
+
+.about-me .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #0073e6;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #444;
+    background: #f5f5f5;
+}
+
+/* Header */
+header {
+    background: #008000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+header nav a.active, header nav a:hover {
+    color: #fdd835;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 128, 0, 0.7), rgba(0, 128, 0, 0.7)), url('agriculture.jpg') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background: #fdd835;
+    color: #008000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hero .btn:hover {
+    background: #007000;
+    color: #fff;
+}
+
+/* Specializations Section */
+.specializations {
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+}
+
+.specializations h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #008000;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #008000;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Quote Section */
+.quote {
+    background: #fdd835;
+    color: #444;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.quote h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.quote p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #f9f9f9;
+}
+
+/* Header */
+header {
+    background: #008000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+header nav a.active, header nav a:hover {
+    color: #fdd835;
+}
+
+/* About Me Section */
+.about-me {
+    padding: 50px 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+
+.about-me h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #008000;
+}
+
+.about-me .highlight {
+    color: #fdd835;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about-content .profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content .text-content {
+    flex: 1;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+<nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
